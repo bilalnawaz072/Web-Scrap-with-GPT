@@ -57,9 +57,8 @@ pip install beautifulsoup4
 4. Open your command prompt or terminal and navigate to the directory where you saved the Python file.
 
 5. Run the script by typing the following command and pressing enter:
-```
-python scrape_books.py
-```
+```python scrape_books.py```
+
 
 6. The script will then retrieve the book titles and print them to the console.
 
@@ -69,7 +68,7 @@ python scrape_books.py
 ***
 
 **Bilal:**
-give us code for scraping title and price
+        give us code for scraping title and price
 
 ***
 
