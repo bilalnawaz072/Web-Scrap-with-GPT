@@ -45,26 +45,24 @@ how to run the code
 
 To run the code, you'll need to have Python and the BeautifulSoup library installed on your computer. Here are the steps to run the code:
 
-1. 
-Install Python on your computer. You can download it from the official website: <a href="https://www.python.org/downloads/" target="_new">https://www.python.org/downloads/</a>
+1. Install Python on your computer. You can download it from the official website: <a href="https://www.python.org/downloads/" target="_new">https://www.python.org/downloads/</a>
 
-2. 
-Install the BeautifulSoup library by running the following command in your command prompt or terminal:
-<pre><div class="bg-black mb-4 rounded-md"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans"><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs p-4">pip install beautifulsoup4
-`</code></div></div></pre>
-3. <code class="!whitespace-pre hljs p-4">
-Copy the code into a new file in your preferred text editor and save it with a `.py` extension, for example `scrape_books.py`.
-</code>
-4. <code class="!whitespace-pre hljs p-4">
-Open your command prompt or terminal and navigate to the directory where you saved the Python file.
-</code>
-5. <code class="!whitespace-pre hljs p-4">
-Run the script by typing the following command and pressing enter:
-<pre><div class="bg-black mb-4 rounded-md"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans"><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs p-4">python scrape_books.py
-`</code></div></div></pre></code>
-6. <code class="!whitespace-pre hljs p-4"><code class="!whitespace-pre hljs p-4">
-The script will then retrieve the book titles and print them to the console.
-</code></code>
+2. Install the BeautifulSoup library by running the following command in your command prompt or terminal:
+```
+pip install beautifulsoup4
+
+```
+3.Copy the code into a new file in your preferred text editor and save it with a `.py` extension, for example `scrape_books.py`.
+
+4. Open your command prompt or terminal and navigate to the directory where you saved the Python file.
+
+5. Run the script by typing the following command and pressing enter:
+```
+python scrape_books.py
+```
+
+6. The script will then retrieve the book titles and print them to the console.
+
 
 
 
@@ -184,4 +182,7 @@ In this updated code, we added an additional `with` statement that opens a new C
 
 When you run this code, it will create a new file called `books.csv` in the same directory as the Python script. The file will contain the book data in CSV format, with each row representing a single book and each column representing a piece of book data (title, price, link).
 
+
 ***
+
+Exported on February 18, 2023 11:03 AM.
