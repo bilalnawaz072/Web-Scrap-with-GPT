@@ -1,11 +1,11 @@
 # Web Scraping with BeautifulSoup
 
-**Human:**
+**Bilal:**
 web scrape data from https://books.toscrape.com/ using python and beatufilsoup
 
 ***
 
-**Assistant:**
+**ChatGPT:**
 
 Sure, I can help you with that. Here's a sample Python code that uses the BeautifulSoup library to scrape data from the website <a href="https://books.toscrape.com/" target="_new">https://books.toscrape.com/</a>:
 
@@ -36,12 +36,12 @@ You can modify this code to scrape other information from the website, such as b
 
 ***
 
-**Human:**
+**Bilal:**
 how to run the code
 
 ***
 
-**Assistant:**
+**ChatGPT:**
 
 To run the code, you'll need to have Python and the BeautifulSoup library installed on your computer. Here are the steps to run the code:
 
@@ -70,12 +70,12 @@ The script will then retrieve the book titles and print them to the console.
 
 ***
 
-**Human:**
+**Bilal:**
 give us code for scraping title and price
 
 ***
 
-**Assistant:**
+**ChatGPT:**
 
 Sure! Here is an updated code example that scrapes both the book title and price:
 
@@ -107,12 +107,12 @@ Note that the prices are retrieved as text, so you may need to convert them to a
 
 ***
 
-**Human:**
+**Bilal:**
 also scrap links for each book
 
 ***
 
-**Assistant:**
+**ChatGPT:**
 
 Sure, here's an updated code example that scrapes the book title, price, and link for each book on the page:
 
@@ -145,12 +145,12 @@ Note that the links are retrieved as strings, so you can use them to make additi
 
 ***
 
-**Human:**
+**Bilal:**
 export data into a csv file
 
 ***
 
-**Assistant:**
+**ChatGPT:**
 
 To export the scraped data into a CSV file, you can use Python's built-in `csv` module. Here's an updated code example that exports the book title, price, and link data into a CSV file:
 
@@ -184,7 +184,4 @@ In this updated code, we added an additional `with` statement that opens a new C
 
 When you run this code, it will create a new file called `books.csv` in the same directory as the Python script. The file will contain the book data in CSV format, with each row representing a single book and each column representing a piece of book data (title, price, link).
 
-
 ***
-
-Exported on February 18, 2023 11:03 AM.
